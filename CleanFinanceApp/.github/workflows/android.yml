@@ -7,7 +7,7 @@ on:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-  GRADLE_OPTS: "-Xmx2048m -XX:MaxMetaspaceSize=512m"
+  GRADLE_OPTS: "-Xmx4096m -XX:MaxMetaspaceSize=512m"
 
 jobs:
   build:
