@@ -3,6 +3,6 @@
     <style name="Theme.FinanceApp" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorSecondary">@color/purple_200</item>
-        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:statusBarColor">@color/purple_500</item>
     </style>
 </resources>
