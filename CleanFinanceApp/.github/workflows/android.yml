@@ -27,7 +27,7 @@ jobs:
       run: chmod +x gradlew
 
     - name: Build with Gradle
-      run: ./gradlew clean assembleDebug -Dorg.gradle.jvmargs="-Xmx4096m -XX:MaxMetaspaceSize=512m" --no-daemon
+      run: ./gradlew clean assembleDebug -Dorg.gradle.jvmargs="-Xmx4096m -XX:MaxMetaspaceSize=512m" -Dorg.gradle.daemon=false --no-daemon
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
